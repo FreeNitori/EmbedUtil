@@ -1,6 +1,9 @@
 package embedutil
 
-import "github.com/bwmarrin/discordgo"
+import (
+	log "git.randomchars.net/FreeNitori/Log"
+	"github.com/bwmarrin/discordgo"
+)
 
 // Embed represents a discord embed.
 type Embed struct {
